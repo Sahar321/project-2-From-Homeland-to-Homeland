@@ -1,5 +1,4 @@
 .footer__copyright {
-    margin: 0;
     padding: 0;
     /*reset default styles*/
     max-width: 165px;
@@ -13,7 +12,6 @@
     text-align: right;
   
     color: #ffffff;
-    text-align: center;
     margin: 88px auto 24px;
   }
 
