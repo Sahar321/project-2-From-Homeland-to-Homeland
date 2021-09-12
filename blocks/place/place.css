@@ -1,0 +1,39 @@
+.place {
+  max-width: 984px;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas:
+    "title link"
+    "img brif";
+  row-gap: 48px;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    min-height: 560px;
+    -webkit-column-gap: 28px;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-areas:
+      "title"
+      "header"
+      "img"
+      "pp"
+      "button";
+    row-gap: 30px;
+    justify-items: center;
+  }
+}
