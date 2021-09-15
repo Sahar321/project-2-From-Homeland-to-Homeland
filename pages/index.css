@@ -1,9 +1,9 @@
 @import url(/style/normalize.css);
 @import url("/fonts/inter/inter.css");
 
-@import url(/blocks/button/_place/button_place_buy-nft.css);
-@import url(/blocks/button/_place/button_place_visit-us.css);
-@import url(/blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_buy-nft.css);
+@import url(../blocks/button/_place/button_place_visit-us.css);
+@import url(../blocks/button/button.css);
 
 @import url(/blocks/cover/cover.css);
 
