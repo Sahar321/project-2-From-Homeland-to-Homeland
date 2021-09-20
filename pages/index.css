@@ -1,11 +1,9 @@
 @import url(../normalize.css);
 @import url(../fonts/inter/inter.css);
 
-@import url(../blocks/button/_place/button_place_buy-nft.css);
-@import url(../blocks/button/_place/button_place_visit-us.css);
 @import url(../blocks/button/button.css);
-
-@import url(../blocks/cover/cover.css);
+@import url(../blocks/button/_size/button_size_big.css);
+@import url(../blocks/button/_size/button_size_small.css);
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /*@import url(/blocks/footer/footer.css);*/
@@ -25,11 +23,14 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__text/logo__text.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
-
+@import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__items/places__items.css);
 
 @import url(../blocks/place/__artist-name/place__artist-name.css);
 @import url(../blocks/place/__artist/place__artist.css);
@@ -41,8 +42,10 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/place.css);
 
-@import url(../blocks/places/places.css);
-
+@import url(../blocks/visit-us/__cover/visit-us__cover.css);
 @import url(../blocks/visit-us/__address/visit-us__address.css);
 @import url(../blocks/visit-us/__title/visit-us__title.css);
+@import url(../blocks/visit-us/__continer/visit-us__continer.css);
 @import url(../blocks/visit-us/visit-us.css);
+
+@import url(../blocks/overlay/overlay.css);
