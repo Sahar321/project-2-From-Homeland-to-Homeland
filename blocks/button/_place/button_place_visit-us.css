@@ -1,8 +1,0 @@
-.button_place_visit-us {
-  z-index: 1;
-}
-@media screen and (max-width: 768px) {
-  .button_place_visit-us {
-    max-width: 137px;
-  }
-}
