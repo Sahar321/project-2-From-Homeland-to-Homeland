@@ -1,9 +1,0 @@
-.logo__image {
-  max-width: 32px;
-}
-
-@media screen and (max-width: 320px) {
-  .logo__image {
-    max-width: 23.8px;
-  }
-}
