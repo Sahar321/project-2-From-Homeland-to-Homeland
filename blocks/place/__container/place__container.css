@@ -14,26 +14,4 @@
     display: contents;
   }
 }
-/*
-@media screen and (max-width: 320px) {
-  .place__container {
-    
-            ".place {display: grid}" | (Grandpa) ->
-              ".place__container {display: flex;}" | (parent) ->
-                 ".button_buy_nft {grid-area: button;}" | (grandchild)
-        
-        the property of the grandchild ['.button_buy_nft'] is "grid-area: button" and it won't work because
-        the parent is ['.place__container'] and not ['.place'].
-        so, I chose to use "display: contents;" here to ignore parent['.place__container'],
-        and make the Grandpa as the new parent.
-         so the result in DOM:
-        .place {display: grid}" | (parent) ->
-          ".button_buy_nft {grid-area: button;}" | (child)
-        
-        *['.place__container'] it is used as a container only, so it is no problem to ignore it.
-        
-           
-    display: contents;
-  }
-}
-*/
+
