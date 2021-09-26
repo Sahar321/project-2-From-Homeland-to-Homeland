@@ -1,0 +1,11 @@
+@media screen and (max-width: 320px) {
+  .button_size_big {
+    grid-area: button;
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+    /* display: block; */
+    max-width: 288px;
+    width: 288px;
+    text-align: center;
+  }
+}
