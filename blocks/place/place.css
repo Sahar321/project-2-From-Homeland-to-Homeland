@@ -10,10 +10,7 @@
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
-}
-
-.place:not(:first-child) {
-  margin-top: 48px;
+  margin-top: 80px;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,6 +44,10 @@
     row-gap: 30px;
     justify-items: center;
     grid-template-columns: none;
+  }
+
+  .place:not(:first-child) {
+    margin-top: 48px;
   }
 }
 
