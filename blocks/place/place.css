@@ -11,6 +11,7 @@
   -moz-column-gap: 40px;
   column-gap: 40px;
   margin-top: 80px;
+  grid-template-columns: 340px 352px;
 }
 
 @media screen and (max-width: 768px) {
