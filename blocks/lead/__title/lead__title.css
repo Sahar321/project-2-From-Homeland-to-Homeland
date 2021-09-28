@@ -1,0 +1,33 @@
+.lead__title {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 793px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .lead__title {
+    font-size: 62px;
+    line-height: 62px;
+  }
+}
+
+/* I don't know if it's needed, but if somehow the desktop resolution is lower than 335px, the font cause horizontal scrollbar,
+ because the vertical desktop scroll bar. so insted 320, I made little higher the brake point. */
+@media screen and (max-width: 335px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
