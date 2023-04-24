@@ -1,7 +1,7 @@
 # From Homeland to Homeland
 
 ## Description
-"From Homeland to Homeland" is my secound project, fully responsive webpage that allows you to explore the geographic locations of your online friends. Whether you're a seasoned traveler or just love learning about new places, this website is perfect for you!
+"From Homeland to Homeland" is my secound project, fully responsive static webpage that allows you to explore the geographic locations of your online friends. Whether you're a seasoned traveler or just love learning about new places, this website is perfect for you!
 
 ## Technologies and Techniques Used
 To create this webpage, I used several modern technologies and techniques, including:
